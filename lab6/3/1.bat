@@ -1,1 +1,1 @@
-fc services.txt services2.txt > difference.txt
+sc query | find "SERVICE_NAME" > services.txt
