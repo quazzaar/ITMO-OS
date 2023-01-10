@@ -1,4 +1,1 @@
-sc stop Dnscache
-timeout /t 5
-sc queryex type=service state=all | find "SERVICE_NAME" > services2.txt
-sc start Dnscache
+fc /c c:\lab6\3\services.txt c:\lab6\3\newservices.txt > diff.txt
