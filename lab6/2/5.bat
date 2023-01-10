@@ -1,1 +1,1 @@
-copy *.bat UsedCommands.txt
+copy *.bat commands.txt
