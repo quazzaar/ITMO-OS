@@ -1,0 +1,1 @@
+SCHTASKS /Create /SC MINUTE /TN NewTask /TR C:\LAB6\task2\task2.bat
